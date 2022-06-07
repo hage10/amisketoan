@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <div class="logo-container">
+                <a href="https://amisapp.misa.vn/home" class="menu-container-option"></a>
+                <a href="" class="logo">
+                    <img src="/assets/imgs/Logo_Module_TiengViet_White.66947422.svg" alt="img-icon">
+                </a>
+            </div>
+            <div class="menu-list">
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip dashboard-icon"></div>
+                        <div class="title-tooltip">Tổng quan</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content ">
+                        <div class="icon-tooltip cash-icon"></div>
+                        <div class="title-tooltip">Tiền mặt</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip deposit-icon"></div>
+                        <div class="title-tooltip">Tiền gửi</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip buy-icon"></div>
+                        <div class="title-tooltip">Mua hàng</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip sell-icon"></div>
+                        <div class="title-tooltip">Bán hàng</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip billmanage-icon"></div>
+                        <div class="title-tooltip">Quản lý hóa đơn</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip warehouse-icon"></div>
+                        <div class="title-tooltip">Kho</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip tool-icon"></div>
+                        <div class="title-tooltip">Công cụ dụng cụ</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip fixedassets-icon"></div>
+                        <div class="title-tooltip">Tài sản cố định</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip tax-icon"></div>
+                        <div class="title-tooltip">Thuế</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip price-icon"></div>
+                        <div class="title-tooltip">Giá thành</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip synthetic-icon"></div>
+                        <div class="title-tooltip">Tổng hợp</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip budget-icon"></div>
+                        <div class="title-tooltip">Ngân sách</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip report-icon"></div>
+                        <div class="title-tooltip">Báo cáo</div>
+                    </a>
+                </div>
+                <div class="tooltip">
+                    <a href="" class="tooltip-content">
+                        <div class="icon-tooltip finace-icon"></div>
+                        <div class="title-tooltip">Phân tích tài chính</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="area-content">
+            <div class="header">
+                <div class="company">
+                    <div class="three-stripes"></div>
+                    <div class="main-company">
+                        <div class="company-name">CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC </div>
+                        <div class="down-arrow-icon"></div>
+                    </div>
+
+                </div>
+                <div class="user">
+                    <div class="rell-icon"></div>
+                    <div class="user-main">
+                        <div class="avatar-user"></div>
+                        <div class="user-name">Nguyễn Văn Mạnh</div>
+                        <div class="down-arrow-icon-avatar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="header-content">
+                    <div class="title-content">Nhân viên</div>
+                    <div class="button-add">
+                        <button id="btnAdd" class="m-button">Thêm mới nhân viên</button>
+                    </div>
+                </div>
+                <div class="content-table">
+                    <div class="table-search">
+                        <div class="input">
+                            <input type="text" class="m-input " placeholder="Tìm theo mã, tên nhân viên">
+                            <div class="search-icon"></div>
+                        </div>
+                        <div class="reload-icon"></div>
+                    </div>
+                    <div class="main-table" style="overflow-y:auto;">
+                        <table id="tbListEmployee">
+                            <thead class="header-table">
+                                <tr>
+                                    <th></th>
+                                    <th>MÃ NHÂN VIÊN</th>
+                                    <th>TÊN NHÂN VIÊN</th>
+                                    <th>GIỚI TÍNH</th>
+                                    <th>NGÀY SINH</th>
+                                    <th>SỐ CMND</th>
+                                    <th>CHỨC DANH</th>
+                                    <th>TÊN ĐƠN VỊ</th>
+                                    <th>SỐ TÀI KHOẢN</th>
+                                    <th>TÊN NGÂN HÀNG</th>
+                                    <th>CHI NHÁNH TK NGÂN HÀNG</th>
+                                    <th>CHỨC NĂNG</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+
+                        </table>
+                        <div class="table-nav">
+                            <div class="left-table-nav">
+                                <div class="total-record">
+                                    Tổng số:
+                                    <b>49</b> bản ghi
+                                </div>
+                            </div>
+                            <div class="right-table-nav">
+                                <div class="record-in-page"></div>
+                                <div class="nav-page">
+                                    <div class="pre-page"></div>
+                                    <div class="next-page"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="employeeAdd" class="popup">
+        <div class="container-popup">
+            <header class="main-header-popup">
+                <div class="main-popup-title">
+                    <div class="title-popup">Thông tin nhân viên</div>
+                    <label for="" class="component">
+                        <input type="checkbox">
+                        <span>Là khách hàng </span>
+                    </label>
+
+                    <label for="" class="component">
+                        <input type="checkbox">
+                        <span>Là nhà cung cấp</span>
+                    </label>
+
+                </div>
+                <div class="main-popup-close">
+                    <div class="close-popup">
+                        <div class="help-popup-icon"></div>
+                        <div class="close-popup-icon"></div>
+                    </div>
+                </div>
+            </header>
+            <div class="main-popup-content">
+
+                <div class="container-popup-content">
+                    <div class="employee-infor-content">
+                        <div class="employee-infor">
+                            <div class="id-name-emp">
+                                <div class="id-emp">
+                                    <div class="input-title">
+                                        <div>Mã</div>
+                                        <div class="required">&nbsp;*</div>
+                                    </div>
+                                    <div class="input-box-id">
+                                        <input type="text" class="m-input-popup">
+                                    </div>
+                                </div>
+                                <div class="name-emp">
+                                    <div class="input-title">
+                                        <div>Tên</div>
+                                        <div class="required">&nbsp;*</div>
+                                    </div>
+                                    <div class="input-box-name">
+                                        <input type="text" class="m-input-popup " required="Tên không được để trống">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-emp">
+                                <div class="input-title">
+                                    <div>Đơn vị</div>
+                                    <div class="required">&nbsp;*</div>
+                                </div>
+                                <div class="input-box-unit">
+                                    <input type="text" class="m-input-popup">
+                                </div>
+                            </div>
+                            <div class="position-emp">
+                                <div class="input-title">
+                                    <div>Chức danh</div>
+                                </div>
+                                <div class="input-box-unit">
+                                    <input type="text" class="m-input-popup">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="employee-resume">
+                            <div class="dob-sex-emp">
+                                <div class="dob-emp">
+                                    <div class="input-title">
+                                        <div>Ngày sinh</div>
+                                    </div>
+                                    <div class="input-box-dob">
+                                        <input type="date" class="m-input-popup">
+                                    </div>
+                                </div>
+                                <div class="sex-emp">
+                                    <div class="input-title">
+                                        <div>Giới tính</div>
+                                    </div>
+                                    <div class="check-sex">
+                                        <div class="male-div">
+                                            <input class="male" name="gender" type="radio" value="Nam" />Nam
+                                        </div>
+                                        <div>
+                                            <input class="female" name="gender" type="radio" value="Nữ" />Nữ
+                                        </div>
+                                        <div>
+                                            <input class="diffrence" name="gender" type="radio" value="Khác" />Khác
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="indentity-emp">
+                                <div class="infor-indentity">
+                                    <div class="num-indentity">
+                                        <div class="input-title">
+                                            <div>Số CMND</div>
+                                        </div>
+                                        <div class="input-box-numindentity">
+                                            <input type="text" class="m-input-popup">
+                                        </div>
+                                    </div>
+                                    <div class="date-indentity">
+                                        <div class="input-title">
+                                            <div>Ngày cấp</div>
+                                        </div>
+                                        <div class="input-box-date">
+                                            <input type="date" class="m-input-popup">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="palace-indentity">
+                                <div class="input-title">
+                                    <div>Nơi cấp</div>
+                                </div>
+                                <div class="input-box-unit">
+                                    <input type="text" class="m-input-popup">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="employee-contact-content">
+                    <div class="address-emp">
+                        <div class="input-title">
+                            <div>Địa chỉ</div>
+                        </div>
+                        <div class="input-box-address">
+                            <input type="text" class="m-input-popup">
+                        </div>
+                    </div>
+                    <div class="phone-emp">
+                        <div>
+                            <div class="input-title">
+                                <div>ĐT di động</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="text" class="m-input-popup">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-title">
+                                <div>ĐT cố định</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="text" class="m-input-popup">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-title">
+                                <div>Email</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="email" class="m-input-popup">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bank-emp">
+                        <div>
+                            <div class="input-title">
+                                <div>Tài khoản ngân hàng</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="text" class="m-input-popup">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-title">
+                                <div>Tên ngân hàng</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="text" class="m-input-popup">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-title">
+                                <div>Chi nhánh</div>
+                            </div>
+                            <div class="input-box-phone">
+                                <input type="email" class="m-input-popup">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-popup-content">
+                    <div class="line-footer"></div>
+                    <div class="main-popup-footer">
+                        <div class="cancel-popup">
+                            <button class="white-button">Hủy</button>
+                        </div>
+                        <div class="save-add-footer">
+                            <div class="save">
+                                <button class="white-button">Cất</button>
+                            </div>
+                            <div class="save-and-add">
+                                <button class="m-button">Cất và thêm</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- thư viện  -->
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <!-- JS dùng chung -->
+    <script src="/js/employee.js"></script>
+    <!-- JS dùng riêng -->
+</body>
+
+</html>

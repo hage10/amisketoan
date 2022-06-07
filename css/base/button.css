@@ -1,0 +1,43 @@
+.m-button {
+    color: #ffffff;
+    border-radius: 4px;
+    height: 34px;
+    font-size: 13px;
+    background-color: #2ca01c;
+    min-width: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.m-button:hover {
+    background-color: #2FBE8E;
+}
+
+.m-button:active {
+    background-color: #01B075;
+}
+
+.white-button {
+    color: #111;
+    border-radius: 4px;
+    height: 34px;
+    width: 55.2px;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 6px 16px 6px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid #8d9096;
+}
+
+.white-button:hover {
+    background-color: #bebfc2;
+}
+
+.white-button:active {
+    background-color: #01B075;
+}

@@ -1,0 +1,70 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 57, 61);
+    min-width: 178px;
+}
+
+.menu-container .logo-container {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    background-color: rgb(56, 57, 61);
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-container .menu-container-option {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 24px;
+}
+
+.logo-container .logo {
+    display: flex;
+    height: 32px;
+    flex-grow: 2;
+}
+
+.menu-list {
+    padding-top: 14px;
+}
+
+.menu-list .tooltip-content {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 16px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.tooltip-content .icon-tooltip {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.tooltip-content .title-tooltip {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    margin-left: -4px;
+}
+
+.menu-list .tooltip-content:focus {
+    background-color: #58595d;
+    border-left: 6px solid rgb(44, 160, 28);
+    padding-left: 10px;
+}
+
+.menu-list .tooltip-content:hover {
+    background-color: #58595d;
+}

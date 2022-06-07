@@ -1,0 +1,54 @@
+.m-input {
+    height: 30px;
+    width: 240px;
+    border: 1px solid #BBBBBB;
+    border-radius: 1px;
+    padding: 0 16px 0 10px;
+    outline: none;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.m-input:focus {
+    border: 1px solid #019160;
+}
+
+.m-input-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -956px -31px;
+}
+
+.input-title {
+    display: flex;
+}
+
+.m-input-popup {
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    padding: 0 12px 0 10px;
+    outline: none;
+    font-size: 13px;
+    color: inherit;
+}
+
+.m-input-popup:focus {
+    border: 1px solid #019160;
+}
+
+.input-title {
+    display: flex;
+    align-content: center;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.input-box-position {
+    padding-bottom: 12px;
+}
+
+.required {
+    color: red;
+    height: 20px;
+    width: 10.55px;
+}

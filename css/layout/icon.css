@@ -1,0 +1,128 @@
+.menu-container-option {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -424px -86px;
+}
+
+.dashboard-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -32px -1628px;
+}
+
+.cash-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -75px -1628px;
+}
+
+.deposit-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -119px -1628px;
+}
+
+.buy-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -163px -1628px;
+}
+
+.sell-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -206px -1628px;
+}
+
+.billmanage-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -251px -1628px;
+}
+
+.warehouse-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -293px -1628px;
+}
+
+.tool-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -338px -1628px;
+}
+
+.fixedassets-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -380px -1630px;
+}
+
+.tax-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -425px -1630px;
+}
+
+.price-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -469px -1628px;
+}
+
+.synthetic-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -512px -1628px;
+}
+
+.budget-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -380px -1659px;
+}
+
+.report-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -549px -1628px;
+}
+
+.finace-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -206px -1664px;
+}
+
+.rell-icon {
+    cursor: pointer;
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -788px -30px;
+}
+
+.three-stripes {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -843px -30px;
+}
+
+.down-arrow-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -80px -360px;
+    transform: rotate(90deg);
+}
+
+.reload-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -425px -201px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.reload-icon:hover {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -1098px -87px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.help-popup-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -89px -144px;
+    width: 24px;
+    height: 24px;
+}
+
+.close-popup-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -144px -144px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.search-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -992px -360px;
+    width: 16px;
+    height: 16px;
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.avatar-user {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -352px -894px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.down-arrow-icon-avatar {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -1076px -33px;
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
