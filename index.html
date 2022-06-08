@@ -146,7 +146,7 @@
                         </div>
                         <div class="reload-icon"></div>
                     </div>
-                    <div class="main-table" style="overflow-y:auto;">
+                    <div class="main-table">
                         <table id="tbListEmployee">
                             <thead class="header-table">
                                 <tr>
@@ -191,7 +191,7 @@
         </div>
 
     </div>
-    <div id="employeeAdd" class="popup">
+    <div id="employeeAdd" class="popup" hidden>
         <div class="container-popup">
             <header class="main-header-popup">
                 <div class="main-popup-title">
@@ -226,7 +226,7 @@
                                         <div class="required">&nbsp;*</div>
                                     </div>
                                     <div class="input-box-id">
-                                        <input type="text" class="m-input-popup">
+                                        <input id="txtEmployeeCode" required type="text" class="m-input-popup">
                                     </div>
                                 </div>
                                 <div class="name-emp">
@@ -235,7 +235,7 @@
                                         <div class="required">&nbsp;*</div>
                                     </div>
                                     <div class="input-box-name">
-                                        <input type="text" class="m-input-popup " required="Tên không được để trống">
+                                        <input id="txtEmployeeName" required type="text" class="m-input-popup " required="Tên không được để trống">
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +245,7 @@
                                     <div class="required">&nbsp;*</div>
                                 </div>
                                 <div class="input-box-unit">
-                                    <input type="text" class="m-input-popup">
+                                    <input id="txtEmployeeUnit" required type="text" class="m-input-popup">
                                 </div>
                             </div>
                             <div class="position-emp">
@@ -390,7 +390,7 @@
                                 <button class="white-button">Cất</button>
                             </div>
                             <div class="save-and-add">
-                                <button class="m-button">Cất và thêm</button>
+                                <button id="btnSaveAdd" class="m-button">Cất và thêm</button>
                             </div>
                         </div>
                     </div>
@@ -399,8 +399,29 @@
             </div>
 
         </div>
+
     </div>
+
     </div>
+    <!-- dialog thông báo lỗi  -->
+    <div class="m-dialog m-dialog-notice" hidden>
+        <div class="m-dialog-content">
+            <div class="m-dialog-body">
+                <div class="main-message">
+                    <div class="alert-icon"></div>
+                    <div class="alert-message">
+                        <div class="alert"></div>
+                    </div>
+                </div>
+                <div class="dialog-line-footer"></div>
+                <div class="footer-dialog">
+                    <button class="m-button agree-alert">Đồng ý</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <!-- thư viện  -->
     <script src="/js/jquery-3.6.0.min.js"></script>
