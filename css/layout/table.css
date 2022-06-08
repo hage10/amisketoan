@@ -8,6 +8,7 @@ td {
 
 tr {
     height: 44px;
+    cursor: pointer;
 }
 
 th {
@@ -20,7 +21,8 @@ table {
     width: 100%;
     margin-right: 16px;
     border-collapse: collapse;
-    height: ;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 tr:hover {
@@ -31,7 +33,11 @@ tr:active {
     background-color: #e5f3ff;
 }
 
-table {
-    width: 100%;
-    margin-bottom: 10px;
+.checkbox-emp:focus {
+    background-color: #e5f3ff;
+}
+
+.header-table {
+    position: sticky;
+    top: -1px;
 }

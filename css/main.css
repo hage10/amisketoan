@@ -8,6 +8,7 @@
 @import url(./layout/main-content.css);
 @import url(./layout/table.css);
 @import url(/css/layout/popup.css);
+@import url(/css/base/dialog.css);
 @font-face {
     font-family: MISA Fonts Regular;
     src: url(../assets/font/GoogleSans-Regular.otf);
@@ -21,4 +22,8 @@
 @font-face {
     font-family: MISA Fonts Italic;
     src: url(../assets/font/GoogleSans-Italic.otf);
+}
+
+[notvalid] {
+    border: 1px solid #ff4747;
 }

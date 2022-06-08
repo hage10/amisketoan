@@ -126,3 +126,9 @@
     height: 14px;
     margin-left: 10px;
 }
+
+.alert-icon {
+    background: url('/assets/imgs/Sprites.64af8f61.svg') no-repeat -592px -457px;
+    width: 48px;
+    height: 48px;
+}
